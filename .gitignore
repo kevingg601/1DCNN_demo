@@ -1,5 +1,8 @@
 # CWRU 數據集與模型權重檔 (Datasets & Model Weights)
-/data/
+/data/*
+!/data/.gitkeep
+!/data/download/
+!/data/download/.gitkeep
 *.mat
 *.pickle
 *.h5
