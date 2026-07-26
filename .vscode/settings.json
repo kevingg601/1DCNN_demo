@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Portable venv": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/k",
+        "D:\\PYTHON\\fr_shoulder\\Launch-Portable.cmd"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Portable venv"
+}

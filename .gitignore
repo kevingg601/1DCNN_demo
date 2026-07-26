@@ -1,0 +1,15 @@
+# CWRU 數據集與模型權重檔 (Datasets & Model Weights)
+/data/
+*.mat
+*.pickle
+*.h5
+*.hdf5
+
+# 匯出之高解析度圖表與試算表 (Exported Plots & Excel Spreadsheets)
+*.png
+*.xlsx
+
+# Python 快取與 Jupyter Checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
