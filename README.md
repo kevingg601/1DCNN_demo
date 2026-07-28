@@ -2,11 +2,16 @@
 
 本專案基於 **1D-CNN (一維卷積神經網路)**，針對美國 **CWRU (Case Western Reserve University, 凱斯西儲大學)** 軸承數據集，實現端到端的震動訊號特徵學習與 **10 種軸承健康/故障狀態之精準分類診斷**。
 
+> 📌 **致謝與原項目出處 (Original Repository)**：  
+> 本專案改編與升級自原作者 **`meitetsu3`** 之 GitHub 專案：[https://github.com/meitetsu3/1DCNN](https://github.com/meitetsu3/1DCNN)。  
+> 本版本全面升級了 **TensorFlow 2.x / Keras 3 語法相容**、補全**全繁體中文代碼與 Markdown 註解**、擴充 **10 種時域波形可視化**、**訓練曲線與混淆矩陣繪製**、**`ipywidgets` 互動預測控制面板**、**Excel 數據集導出**以及**全自動數據下載腳本**。
+
 ---
 
 ## 1. 數據集來源與自動下載指南 (Datasets & Download Guide)
 
 ### 數據集來源 (Data Origin)
+* **原專案項目 (Original Project)**: [https://github.com/meitetsu3/1DCNN](https://github.com/meitetsu3/1DCNN)
 * **官方數據中心**: [Case Western Reserve University Bearing Data Center](https://engineering.case.edu/bearingdatacenter)
 * **官方檔案下載伺服器**: `https://engineering.case.edu/sites/default/files/`
 * **採樣規格**: 加速度計採樣頻率為 12 kHz / 48 kHz，收錄電動馬達在 0 HP, 1 HP, 2 HP, 3 HP 四種負載下運轉之時域震動數據。
@@ -72,6 +77,7 @@ jupyter notebook 1DCNN_demo.ipynb
 
 ---
 
-## 4. 參考文獻 (Reference)
+## 4. 參考來源與文獻 (References & Acknowledgements)
 
-[1] Wei Zhang, Gaoliang Peng, Chuanhao Li, Yuanhang Chen and Zhujin Zhang, “[A New Deep Learning Model for Fault Diagnosis with Good Anti-Noise and Domain Adaption Ability on Raw Vibration Signals](https://www.mdpi.com/1424-8220/17/2/425)”, *MDPI Sensors*, 2017.
+[1] 原作者 GitHub 專案: [meitetsu3/1DCNN](https://github.com/meitetsu3/1DCNN)  
+[2] Wei Zhang, Gaoliang Peng, Chuanhao Li, Yuanhang Chen and Zhujin Zhang, “[A New Deep Learning Model for Fault Diagnosis with Good Anti-Noise and Domain Adaption Ability on Raw Vibration Signals](https://www.mdpi.com/1424-8220/17/2/425)”, *MDPI Sensors*, 2017.
