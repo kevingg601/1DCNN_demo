@@ -16,38 +16,7 @@ download_folder = os.path.join('.', 'data', 'download')
 if not os.path.exists(download_folder):
     os.makedirs(download_folder, exist_ok=True)
 
-file_dictionary = {
-    "1-A": "98.mat",
-    "1-B": "99.mat",
-    "1-C": "100.mat",
-    "2-A": "119.mat",
-    "2-B": "120.mat",
-    "2-C": "121.mat",
-    "3-A": "186.mat",
-    "3-B": "187.mat",
-    "3-C": "188.mat",
-    "4-A": "223.mat",
-    "4-B": "224.mat",
-    "4-C": "225.mat",
-    "5-A": "106.mat",
-    "5-B": "107.mat",
-    "5-C": "108.mat",
-    "6-A": "170.mat",
-    "6-B": "171.mat",
-    "6-C": "172.mat",
-    "7-A": "210.mat",
-    "7-B": "211.mat",
-    "7-C": "212.mat",
-    "8-A": "131.mat",
-    "8-B": "132.mat",
-    "8-C": "133.mat",
-    "9-A": "198.mat",
-    "9-B": "199.mat",
-    "9-C": "200.mat",
-    "10-A": "235.mat",
-    "10-B": "236.mat",
-    "10-C": "237.mat"
-}
+
 
 import ssl
 
