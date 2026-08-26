@@ -1,0 +1,4 @@
+Writing Training workbook: D:\PYTHON\1DCNN-master\1DCNN-master\data\xlsx_1dcnn_demo\1DCNN_train_2048x2.xlsx
+  verified: 19800 rows x 4097 columns; class_counts={'0.007_Ball': 1980, '0.007_Inner_Race': 1980, '0.007_Outer_Race': 1980, '0.014_Ball': 1980, '0.014_Inner_Race': 1980, '0.014_Outer_Race': 1980, '0.021_Ball': 1980, '0.021_Inner_Race': 1980, '0.021_Outer_Race': 1980, 'Normal Baseline': 1980}; size=612,172,231 bytes
+Writing Test workbook: D:\PYTHON\1DCNN-master\1DCNN-master\data\xlsx_1dcnn_demo\1DCNN_test_2048x2.xlsx
+  verified: 750 rows x 4097 columns; class_counts={'0.007_Ball': 75, '0.007_Inner_Race': 75, '0.007_Outer_Race': 75, '0.014_Ball': 75, '0.014_Inner_Race': 75, '0.014_Outer_Race': 75, '0.021_Ball': 75, '0.021_Inner_Race': 75, '0.021_Outer_Race': 75, 'Normal Baseline': 75}; size=23,215,092 bytes
